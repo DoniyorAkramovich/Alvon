@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E351227828589D1000739BD3 /* AlvonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351227728589D1000739BD3 /* AlvonApp.swift */; };
-		E351227A28589D1000739BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351227928589D1000739BD3 /* ContentView.swift */; };
 		E351227C28589D1100739BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E351227B28589D1100739BD3 /* Assets.xcassets */; };
 		E351227F28589D1100739BD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E351227E28589D1100739BD3 /* Preview Assets.xcassets */; };
+		E351228628589D4200739BD3 /* SignInPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351228528589D4200739BD3 /* SignInPresent.swift */; };
+		E35122882858A69100739BD3 /* SignUpPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35122872858A69100739BD3 /* SignUpPresent.swift */; };
+		E351228A2858AAC600739BD3 /* SignInPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35122892858AAC600739BD3 /* SignInPushing.swift */; };
+		E351228C2858AAD100739BD3 /* SignUpPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351228B2858AAD100739BD3 /* SignUpPushing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E351227428589D1000739BD3 /* Alvon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alvon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E351227728589D1000739BD3 /* AlvonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlvonApp.swift; sourceTree = "<group>"; };
-		E351227928589D1000739BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E351227B28589D1100739BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E351227E28589D1100739BD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E351228528589D4200739BD3 /* SignInPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresent.swift; sourceTree = "<group>"; };
+		E35122872858A69100739BD3 /* SignUpPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresent.swift; sourceTree = "<group>"; };
+		E35122892858AAC600739BD3 /* SignInPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPushing.swift; sourceTree = "<group>"; };
+		E351228B2858AAD100739BD3 /* SignUpPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPushing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				E351227728589D1000739BD3 /* AlvonApp.swift */,
-				E351227928589D1000739BD3 /* ContentView.swift */,
+				E351228528589D4200739BD3 /* SignInPresent.swift */,
+				E35122872858A69100739BD3 /* SignUpPresent.swift */,
+				E35122892858AAC600739BD3 /* SignInPushing.swift */,
+				E351228B2858AAD100739BD3 /* SignUpPushing.swift */,
 				E351227B28589D1100739BD3 /* Assets.xcassets */,
 				E351227D28589D1100739BD3 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E351227A28589D1000739BD3 /* ContentView.swift in Sources */,
+				E351228C2858AAD100739BD3 /* SignUpPushing.swift in Sources */,
+				E351228A2858AAC600739BD3 /* SignInPushing.swift in Sources */,
+				E35122882858A69100739BD3 /* SignUpPresent.swift in Sources */,
+				E351228628589D4200739BD3 /* SignInPresent.swift in Sources */,
 				E351227828589D1000739BD3 /* AlvonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
