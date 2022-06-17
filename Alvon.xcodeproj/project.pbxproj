@@ -14,6 +14,11 @@
 		E35122882858A69100739BD3 /* SignUpPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35122872858A69100739BD3 /* SignUpPresent.swift */; };
 		E351228A2858AAC600739BD3 /* SignInPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35122892858AAC600739BD3 /* SignInPushing.swift */; };
 		E351228C2858AAD100739BD3 /* SignUpPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351228B2858AAD100739BD3 /* SignUpPushing.swift */; };
+		E38DD4AA285C1B7D00683FFF /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DD4A9285C1B7D00683FFF /* Status.swift */; };
+		E38DD4AC285C21C200683FFF /* HomeSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DD4AB285C21C200683FFF /* HomeSecond.swift */; };
+		E38DD4B1285CA81C00683FFF /* SecondStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DD4B0285CA81C00683FFF /* SecondStarter.swift */; };
+		E3938005285B3CDE00235AC5 /* FirstStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3938004285B3CDE00235AC5 /* FirstStarter.swift */; };
+		E3938007285B40FC00235AC5 /* HomeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3938006285B40FC00235AC5 /* HomeFirst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		E35122872858A69100739BD3 /* SignUpPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresent.swift; sourceTree = "<group>"; };
 		E35122892858AAC600739BD3 /* SignInPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPushing.swift; sourceTree = "<group>"; };
 		E351228B2858AAD100739BD3 /* SignUpPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPushing.swift; sourceTree = "<group>"; };
+		E38DD4A9285C1B7D00683FFF /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		E38DD4AB285C21C200683FFF /* HomeSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecond.swift; sourceTree = "<group>"; };
+		E38DD4B0285CA81C00683FFF /* SecondStarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStarter.swift; sourceTree = "<group>"; };
+		E3938004285B3CDE00235AC5 /* FirstStarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStarter.swift; sourceTree = "<group>"; };
+		E3938006285B40FC00235AC5 /* HomeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFirst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				E351227728589D1000739BD3 /* AlvonApp.swift */,
-				E351228528589D4200739BD3 /* SignInPresent.swift */,
-				E35122872858A69100739BD3 /* SignUpPresent.swift */,
-				E35122892858AAC600739BD3 /* SignInPushing.swift */,
-				E351228B2858AAD100739BD3 /* SignUpPushing.swift */,
+				E38DD4AF285CA1BD00683FFF /* FirstWay */,
+				E3938003285B3CAF00235AC5 /* SecondWay */,
 				E351227B28589D1100739BD3 /* Assets.xcassets */,
 				E351227D28589D1100739BD3 /* Preview Content */,
 			);
@@ -74,6 +82,29 @@
 				E351227E28589D1100739BD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E38DD4AF285CA1BD00683FFF /* FirstWay */ = {
+			isa = PBXGroup;
+			children = (
+				E3938004285B3CDE00235AC5 /* FirstStarter.swift */,
+				E351228528589D4200739BD3 /* SignInPresent.swift */,
+				E35122872858A69100739BD3 /* SignUpPresent.swift */,
+				E3938006285B40FC00235AC5 /* HomeFirst.swift */,
+			);
+			path = FirstWay;
+			sourceTree = "<group>";
+		};
+		E3938003285B3CAF00235AC5 /* SecondWay */ = {
+			isa = PBXGroup;
+			children = (
+				E38DD4B0285CA81C00683FFF /* SecondStarter.swift */,
+				E35122892858AAC600739BD3 /* SignInPushing.swift */,
+				E351228B2858AAD100739BD3 /* SignUpPushing.swift */,
+				E38DD4AB285C21C200683FFF /* HomeSecond.swift */,
+				E38DD4A9285C1B7D00683FFF /* Status.swift */,
+			);
+			path = SecondWay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E351228C2858AAD100739BD3 /* SignUpPushing.swift in Sources */,
+				E38DD4AA285C1B7D00683FFF /* Status.swift in Sources */,
+				E38DD4AC285C21C200683FFF /* HomeSecond.swift in Sources */,
 				E351228A2858AAC600739BD3 /* SignInPushing.swift in Sources */,
+				E3938007285B40FC00235AC5 /* HomeFirst.swift in Sources */,
+				E38DD4B1285CA81C00683FFF /* SecondStarter.swift in Sources */,
+				E3938005285B3CDE00235AC5 /* FirstStarter.swift in Sources */,
 				E35122882858A69100739BD3 /* SignUpPresent.swift in Sources */,
 				E351228628589D4200739BD3 /* SignInPresent.swift in Sources */,
 				E351227828589D1000739BD3 /* AlvonApp.swift in Sources */,

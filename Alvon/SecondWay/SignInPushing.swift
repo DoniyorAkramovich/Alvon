@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SignInPushing: View {
+    
+    @EnvironmentObject  var status: Status
     @State var email: String = ""
     @State var password: String = ""
     @State var nextPage: Bool = false
@@ -39,7 +41,8 @@ struct SignInPushing: View {
                     .cornerRadius(25)
                 
                 Button {
-                    
+                    UserDefaults.standard.set("doniyor.akramovich@gmail.com", forKey: "userid")
+                    status.listen()
                 } label: {
                     HStack {
                         Spacer()

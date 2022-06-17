@@ -11,7 +11,8 @@ import SwiftUI
 struct AlvonApp: App {
     var body: some Scene {
         WindowGroup {
-            SignInPresent()
+            SecondStarter()
+                .environmentObject(Status())
         }
     }
 }

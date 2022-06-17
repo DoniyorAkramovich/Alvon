@@ -38,10 +38,12 @@ struct SignInPresent: View {
                 .cornerRadius(25)
             
             Button {
-                
+                UserDefaults.standard.set(true, forKey: "status")
+                NotificationCenter.default.post(name: NSNotification.Name("status"), object: nil)
             } label: {
                 HStack {
                     Spacer()
+                    
                     Text("Sign In")
                         .fontWeight(.semibold)
                         .frame(height: 45)

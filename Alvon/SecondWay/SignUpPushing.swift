@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SignUpPushing: View {
+    
     @Environment(\.presentationMode) var presentation
     
     @State var firstName: String = ""
